@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#NewContainer{
+    margin-top: 60px;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#NewContent h1{
+
+    font-size: 95px;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    z-index: 999;
+    text-transform: uppercase;
+}
+
+video{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+/*last products*/
+#LastProductContainer{
+    display: flex;
+    margin-top: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#zdjecieCards{
+    width: 500px;
+    height: 550px;
+}
+#LastProductCard{
+    justify-content: center;
+    margin: 25px;
+    align-items: center;
+}
+#LastProductCard:hover{
+    box-shadow: 0px 0px 2px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#nazwa{
+    font-size: 21px;
+    text-align: center;
+    margin-top: 0;
+}
+#cena{
+    font-size: 14px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 50px;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+    font-size: 9px;
+    padding-top: 3px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid darkgray;
+    padding-left: 5px;
+    padding-right: 5px;
+}

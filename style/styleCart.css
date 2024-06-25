@@ -1,0 +1,114 @@
+body {
+    font-family: "Reddit Mono", monospace;
+    margin: 0;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+#mainContainer{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+.cart-container {
+    width: 70%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-left: -15px;
+}
+
+.summary {
+    flex-direction: column;
+    display: flex;
+    text-align: right;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 16px;
+    margin:0;
+}
+.quantity-input {
+    width: 50px;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-remove {
+    outline: 0;
+    border: 0;
+    background-color: white;
+    color: red;
+}
+#cartItems:hover{
+    box-shadow: 0px 0px 1px black;
+}
+#buyNow{
+    margin-top: 25px;
+    height: 50px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+#buyNow:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+#bag{
+    font-size: 148px;
+    margin-bottom: 40px;
+}
+#promotion{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 200px;
+    text-align: center;
+    outline: 0;
+    height: 25px;
+    border: 1px solid black;
+}
+#textKod{
+    font-size: 14px;
+}
