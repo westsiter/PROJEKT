@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+#textAdd{
+color: black;
+font-size: 12px;
+margin-right: 50px;
+text-decoration: none;
+border-bottom: 1px solid black;
+margin-bottom: 50px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+td a{
+    text-decoration: underline;
+    color: black;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
